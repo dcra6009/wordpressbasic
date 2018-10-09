@@ -1,2 +1,3 @@
-# wordpressbasic
-Basic tutorial for wordpress beginner. 
+# wordpress basic
+
+Basic tutorials for wordpress beginner. 
