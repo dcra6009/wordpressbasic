@@ -4,7 +4,7 @@
 	<div class="col-8">
 	<main id="content" class="content ml-4">
 		<div class="entry-box clearfix">
-				<p><?php _e( 'It looks like nothing was found at this location. Maybe try a search?', 'basic' ); ?></p>
+				<p><?php _e( 'Page not found!', 'basic' ); ?></p>
 				<?php get_search_form(); ?>
 		</div>
 	</main>
