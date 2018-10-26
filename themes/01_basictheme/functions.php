@@ -1,5 +1,5 @@
 <?php
-/*  Theme settings */
+/* Basic theme settings */
 if ( ! function_exists( 'basic_setup' ) ) :
 	function basic_setup() {
 
