@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 	<div class="row">
 		<div class="col-8">
-		<main id="content" class="ml-5">
+		<main id="content" class="content ml-5">
 
 		<?php if (have_posts()) :
 
@@ -10,7 +10,7 @@
 		$not_paged = ( empty($not_paged) ) ? true : false;
 
 		?>
-		<header class="inform">
+		<header class="inform mt-5">
 			<h1><?php _e( 'Category', 'basic' ); ?> &laquo;<?php single_cat_title(''); ?>&raquo;</h1>
 		</header>
 

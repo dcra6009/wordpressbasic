@@ -1,5 +1,5 @@
 <footer id="footer">
-	<nav class="navbar navbar-expand">
+	<nav class="navbar navbar-expand list-group-item">
 	<?php if (has_nav_menu('bottom_menu')) {
 		wp_nav_menu( array(
 				'theme_location' => 'bottom_menu',

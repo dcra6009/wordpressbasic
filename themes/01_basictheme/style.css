@@ -10,3 +10,13 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: basic, wptutorial, wordpressatoz,vunamnhan, wordpressbasic
 Text Domain: a-basic-theme
 */
+
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+.content {
+  min-height: calc(100vh - 260px);
+}

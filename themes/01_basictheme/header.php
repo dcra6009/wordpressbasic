@@ -6,6 +6,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link href="<?php echo get_template_directory_uri(); ?>/style.css" rel="stylesheet">
 
 	<?php //wp_head(); ?>
 </head>
@@ -13,6 +14,7 @@
 	<div class="wrapper clearfix">
 	<!-- BEGIN header -->
 	<header id="header" class="<?php echo apply_filters( 'basic_header_class', 'clearfix' ); ?>">
+
 	<nav class="navbar navbar-expand list-group-item">
 		<?php if ( has_nav_menu( 'top_menu' ) ) {
 			wp_nav_menu( array(
