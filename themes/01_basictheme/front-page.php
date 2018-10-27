@@ -12,7 +12,7 @@
 					<?php endwhile; ?>
 			</main> <!-- #content -->
 			<div class="ml-3 border-bottom">
-				<small><em>home.php</em></small>
+				<small><em>front-page.php</em></small>
 			</div>
 		</div>
 		<div class="col-4">
